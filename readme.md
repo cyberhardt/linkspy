@@ -8,10 +8,7 @@ This application is written using Lazarus and compiled using FreePascal.
 
 linkspy uses the following 3rd party components/libraries:
 
-Ararat Synapse
-MYTHcode XML Parser
-XiControls
-ATTabs
+Ararat Synapse, MYTHcode XML Parser, XiControls, ATTabs
 
 GeoIP database is by IP2Location provided in an sqlite3 database.
 
