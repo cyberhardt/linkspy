@@ -1,0 +1,46 @@
+object frmBatch: TfrmBatch
+  Left = 238
+  Height = 299
+  Top = 166
+  Width = 320
+  Caption = 'Enter URLs'
+  ClientHeight = 299
+  ClientWidth = 320
+  LCLVersion = '1.7'
+  object Label1: TLabel
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 286
+    Caption = 'Enter the list of URLs below on seperate lines'
+    ParentColor = False
+  end
+  object textURLs: TMemo
+    Left = 8
+    Height = 226
+    Top = 32
+    Width = 304
+    Anchors = [akTop, akLeft, akRight]
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object btnOK: TButton
+    Left = 152
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'OK'
+    OnClick = btnOKClick
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 235
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btnCancelClick
+    TabOrder = 2
+  end
+end

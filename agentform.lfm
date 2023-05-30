@@ -1,0 +1,66 @@
+object frmUserAgent: TfrmUserAgent
+  Left = 466
+  Height = 260
+  Top = 286
+  Width = 299
+  BorderStyle = bsDialog
+  Caption = 'Useragent Manager'
+  ClientHeight = 260
+  ClientWidth = 299
+  Position = poOwnerFormCenter
+  LCLVersion = '1.7'
+  object btnOKS: TButton
+    Left = 216
+    Height = 25
+    Top = 231
+    Width = 75
+    Caption = 'OK'
+    OnClick = btnOKSClick
+    TabOrder = 0
+  end
+  object listAgents: TListBox
+    Left = 8
+    Height = 248
+    Top = 8
+    Width = 200
+    ItemHeight = 0
+    Options = [lboDrawFocusRect]
+    TabOrder = 1
+  end
+  object btnAddS: TButton
+    Left = 216
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Add'
+    OnClick = btnAddSClick
+    TabOrder = 2
+  end
+  object btnEditS: TButton
+    Left = 216
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Edit'
+    OnClick = btnEditSClick
+    TabOrder = 3
+  end
+  object btnDeleteS: TButton
+    Left = 216
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'Delete'
+    OnClick = btnDeleteSClick
+    TabOrder = 4
+  end
+  object btnResetS: TButton
+    Left = 216
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Default'
+    OnClick = btnResetSClick
+    TabOrder = 5
+  end
+end

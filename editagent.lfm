@@ -1,0 +1,66 @@
+object frmEditUserAgent: TfrmEditUserAgent
+  Left = 233
+  Height = 159
+  Top = 132
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'frmEditUserAgent'
+  ClientHeight = 159
+  ClientWidth = 320
+  Position = poOwnerFormCenter
+  Visible = False
+  object textTitle: TLabeledEdit
+    Left = 8
+    Height = 32
+    Top = 24
+    Width = 304
+    EditLabel.AnchorSideLeft.Control = textTitle
+    EditLabel.AnchorSideRight.Control = textTitle
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = textTitle
+    EditLabel.Left = 8
+    EditLabel.Height = 26
+    EditLabel.Top = -5
+    EditLabel.Width = 304
+    EditLabel.Caption = 'Title'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+    Text = 'textTitle'
+  end
+  object textUserAgent: TLabeledEdit
+    Left = 8
+    Height = 32
+    Top = 88
+    Width = 304
+    EditLabel.AnchorSideLeft.Control = textUserAgent
+    EditLabel.AnchorSideRight.Control = textUserAgent
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = textUserAgent
+    EditLabel.Left = 8
+    EditLabel.Height = 26
+    EditLabel.Top = 59
+    EditLabel.Width = 304
+    EditLabel.Caption = 'UserAgent'
+    EditLabel.ParentColor = False
+    TabOrder = 1
+    Text = 'textUserAgent'
+  end
+  object btnOKS: TButton
+    Left = 152
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'OK'
+    OnClick = btnOKSClick
+    TabOrder = 2
+  end
+  object btnCancelS: TButton
+    Left = 237
+    Height = 25
+    Top = 128
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btnCancelSClick
+    TabOrder = 3
+  end
+end

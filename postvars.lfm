@@ -1,0 +1,97 @@
+object frmPostVars: TfrmPostVars
+  Left = 441
+  Height = 260
+  Top = 286
+  Width = 324
+  BorderStyle = bsDialog
+  Caption = 'POST Variables editor'
+  ClientHeight = 260
+  ClientWidth = 324
+  OnShow = FormShow
+  Position = poOwnerFormCenter
+  LCLVersion = '1.7'
+  object editorGrid: TStringGrid
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 324
+    Align = alTop
+    AutoAdvance = aaRightDown
+    ColCount = 2
+    Columns = <    
+      item
+        Title.Caption = 'Key'
+      end    
+      item
+        Title.Caption = 'Value'
+      end>
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goAutoAddRows, goSmoothScroll, goAutoAddRowsSkipContentCheck]
+    PopupMenu = PopupMenu1
+    RowCount = 2
+    TabOrder = 0
+    OnEditingDone = editorGridEditingDone
+  end
+  object btnOKS: TButton
+    Left = 168
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'OK'
+    OnClick = btnOKSClick
+    TabOrder = 1
+  end
+  object btnCancelS: TButton
+    Left = 248
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = btnCancelSClick
+    TabOrder = 2
+  end
+  object checkClear: TCheckBox
+    Left = 216
+    Height = 19
+    Top = 200
+    Width = 95
+    Caption = 'Clear after use'
+    TabOrder = 3
+  end
+  object btnLoadS: TButton
+    Left = 8
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Load'
+    OnClick = btnLoadSClick
+    TabOrder = 4
+  end
+  object btnSaveS: TButton
+    Left = 88
+    Height = 25
+    Top = 232
+    Width = 75
+    Caption = 'Save'
+    OnClick = btnSaveSClick
+    TabOrder = 5
+  end
+  object PopupMenu1: TPopupMenu
+    OnPopup = PopupMenu1Popup
+    left = 117
+    top = 79
+    object menuDeleteItem: TMenuItem
+      Caption = 'Delete'
+      OnClick = menuDeleteItemClick
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'POST Variables file|(*.pv)'
+    left = 88
+    top = 147
+  end
+  object SaveDialog1: TSaveDialog
+    left = 181
+    top = 145
+  end
+end
