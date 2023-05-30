@@ -44,4 +44,20 @@ Features include:
 
 -
 
+Screenshots:
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/79ff02aa-0427-4942-b8e9-c0149abaff74)
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/ea7d7aaf-c99c-4d3c-a96b-ef5397de4e9e)
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/e2c0fa52-e6f5-4608-b168-90096e28ee25)
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/bbaa9f20-2bb1-4b55-85f6-53e3634eee37)
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/7b4ce990-da2a-42bf-9dbf-f334965a11e4)
+
+![image](https://github.com/cyberhardt/linkspy/assets/107224222/2112f5b0-2405-4720-a3e4-5a0f533fbb37)
+
+-
+
 More information available on index.html inside the "docs" folder.
