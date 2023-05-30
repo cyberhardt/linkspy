@@ -1,4 +1,4 @@
-Description: linkspy (previously httpres) is an easy to use, lightweight program that shows you the headers, response code and contents from an HTTP(S) request. This is useful for expanding short links, or checking where a suspicious link leads to. This is a mirror of the original sourceforge repository at https://sourceforge.net/projects/linkspy/. I've also included the attempted rewrite in C++ - you can find it at cpp_rewrite.
+Description: linkspy (previously httpres) is an easy to use, lightweight program that shows you the headers, response code and contents from an HTTP(S) request. This is useful for expanding short links, or checking where a suspicious link leads to. This is a mirror of the original sourceforge repository at https://sourceforge.net/projects/linkspy/. I've also included the attempted rewrite in C++, which you can find it at cpp_rewrite.
 
 It is available for Windows 7, 8, 10 and most likely works on Windows 11 as well.
 
