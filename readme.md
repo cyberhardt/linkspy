@@ -16,7 +16,7 @@ iii - XiControls
 
 iv - ATTabs
 
-GeoIP database is by IP2Location provided in an sqlite3 database.
+GeoIP database by IP2Location provided in an sqlite3 database.
 
 -
 
